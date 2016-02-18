@@ -1,0 +1,72 @@
+<html ng-app="RegistrationModule">
+<head>
+    <title>Welcome to the Page</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js" type="application/javascript"></script>
+</head>
+
+<center>
+    <body ng-controller="RegistrationController">
+    <center>
+        <legend>REGISTRATION PAGE</legend>
+    </center>
+        <table width="550px" bgcolor="aqua">
+            <tr>
+                <td>
+                    <label  for="first_name">First Name</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="first_name" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="second_name">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="second_name" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="email">Email</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="Email" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="Telephone">UserName</label>
+                </td>
+                <td>
+                    <input type="text" ng-model="User_name" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="Password">Password</label>
+                </td>
+                <td>
+                    <input type="password" ng-model="password" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="Confirm_Password">Confirm Password</label>
+                </td>
+                <td>
+                    <input type="password" ng-model="Confirm_Password" maxlength="50"size="30">
+                </td>
+            </tr>
+            <tr>
+               <td colspan="2" style="text-align: center">
+                   <button onclick="window.location.href='ThankYou.html'">Register</button>
+               </td>
+            </tr>
+
+        </table>
+
+    </body>
+</center>
+</html>
